@@ -33,11 +33,11 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 // row-driven
 #define MATRIX_ROW_PINS { F4, F1, B4, D4, D7 }
 #define MATRIX_COL_PINS { C7, D6, B7, B5, E6, C6 }
-#define MATRIX_ROW_PINS_RIGHT { F1, F4, D4, B4, D7 }
+#define MATRIX_ROW_PINS_RIGHT { F1, F4, D4, D7, B4 }
 #define MATRIX_COL_PINS_RIGHT { B5, E6, C6, C7, D6, B7 }
 
 /* COL2ROW or ROW2COL */
-#define DIODE_DIRECTION COL2ROW
+#define DIODE_DIRECTION ROW2COL
 
 // WS2812 RGB LED strip input and number of LEDs
 #define RGB_DI_PIN D3
